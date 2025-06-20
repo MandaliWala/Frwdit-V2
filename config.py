@@ -9,7 +9,7 @@ class Config:
     
     API_ID = int(os.environ.get("API_ID", 25163484)
     API_HASH = os.environ.get("API_HASH", "145bcbc424d1c1ffe04f3e607ea55c9a")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7016509767:AAHGyELmvA9D6uCz2yPsI5sL4gr7pooU1lI") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "bot") 
     CAPTION = os.environ.get("CAPTION", "")
     FILTER_TYPE = os.environ.get("FILTER_TYPE", "document")
